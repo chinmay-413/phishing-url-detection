@@ -1,0 +1,32 @@
+{
+ "d1_rows_available": 522166,
+ "d1_rows_used": 50000,
+ "rows_after_augmentation": 101370,
+ "phishing_share": 0.2043,
+ "train": 69960,
+ "val": 12739,
+ "test": 18671,
+ "shared_domains": 0,
+ "d2_rows": 1214,
+ "d2_target_flipped": true,
+ "d2_label_check_auc": 0.489,
+ "threshold": 0.738,
+ "confusion": [
+  [
+   13589,
+   1172
+  ],
+  [
+   1292,
+   2618
+  ]
+ ],
+ "pooled_on_d2_holdout": {
+  "Accuracy": 0.642,
+  "Precision": 0.7169,
+  "Recall": 0.7484,
+  "F1-score": 0.7323,
+  "ROC-AUC": 0.6433,
+  "PR-AUC": 0.7664
+ }
+}
